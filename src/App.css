@@ -1,0 +1,71 @@
+.mainGen{
+  border: 2px solid red;
+  border-radius: 15px;
+  background-color: rgb(194, 211, 142);
+  width: 800px;
+  height: 65vh;
+  margin: 100px;
+}
+
+.mainGenTop input{
+  /* border-bottom: 2px solid black; */
+  width: 760px;
+  margin: 20px;
+  height: 15vh;
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  border-bottom: 5px black solid;
+  font-size: 40px;
+}
+
+.customizePass {
+  border-bottom: 2px solid gray;
+  margin: 20px;
+  text-align: center;
+
+}
+
+.bottomPanel {
+  /* border: 2px solid green; */
+  border-radius: 15px;
+  margin: 20px;
+  height: 20vh;
+  display: flex;
+  border-bottom: 2px solid gray;
+}
+
+.bottomPanel-Left {
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  width: 355px;
+  margin: 12.5px;
+  text-align: center;
+}
+
+.bottomPanel-right {
+  /* border: 2px solid black; */
+  border-radius: 15px;
+  width: 355px;
+  margin: 12.5px;
+}
+
+.rangePassword {
+  display: flex;
+  align-items: center;
+  padding: 0px 80px;
+}
+.bottomPanel-right {
+  text-align: center;
+  padding: 10px;
+}
+.footerPass {
+  text-align: center;
+}
+.footerPass button {
+  background-color: rosybrown;
+  color: black;
+  font-weight: 500;
+  font-size: 22px;
+  padding: 8px 20px;
+  border-radius: 15px;
+}
